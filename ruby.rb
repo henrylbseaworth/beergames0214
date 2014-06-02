@@ -1,4 +1,4 @@
-
+# We should definetly be doing this at least once a week. I'm really excited. 
 #
 #
 # Even a trash can gets a steak every once and awhile. 
