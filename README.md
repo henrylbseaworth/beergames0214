@@ -20,3 +20,9 @@ and our key is "bacon", then the resulting text file could be:
     hi my name is bacon(1) and this email is getting longer than expected. have you ever thought about bacon(2) ^ bacon(3) && bacon(4)?
 
 You can use any languages/libraries/hax. Whoever completes the program is invited to a bar to drink beer. Whoever "wins" the challenge chooses the bar
+
+Beer Games Rules (Preliminary)
+====
+Contestants can enter any number of programs. Programs can use any language, libraries, or dependencies. The programs will be evaluated on ONE agreed upon machine. 
+
+Challenges should include details such as the due date and specifics of how to win the challenge. Usually an auto-checker will be provided to provide logical validation and possibly some benchmark if applicable. By tradition, the winner of the challenge picks a celebration venue (bar). All contestants that complete the challenge are invited to the celebration and are not obligated to buy the winner anything. 
