@@ -21,8 +21,32 @@ and our key is "bacon", then the resulting text file could be:
 
 You can use any languages/libraries/hax. Whoever completes the program is invited to a bar to drink beer. Whoever "wins" the challenge chooses the bar
 
-Beer Games Rules (Preliminary)
-====
+## Beer Games Rules (Preliminary)
+
+### Programs
 Contestants can enter any number of programs. Programs can use any language, libraries, or dependencies. The programs will be evaluated on ONE agreed upon machine. 
 
-Challenges should include details such as the due date and specifics of how to win the challenge. Usually an auto-checker will be provided to provide logical validation and possibly some benchmark if applicable. By tradition, the winner of the challenge picks a celebration venue (bar). All contestants that complete the challenge are invited to the celebration and are not obligated to buy the winner anything. 
+###Metrics
+Challenges should include details such as the due date and specifics of how to win the challenge. Usually an auto-checker will be provided to provide logical validation and possibly some benchmark if applicable. 
+
+### Rewards
+By tradition, the winner of the challenge picks a celebration venue (bar). All contestants that complete the challenge are invited to the celebration and are not obligated to buy the winner anything. 
+
+### Submissions
+Make a folder in the root directory of the repository. The name of this folder is your handle. Put all your submissions in this folder, you may organize them as you see fit.
+
+For those not fammiliar with Git, if I wanted to submit my program called SortingIPAs.sh I could use the following procedure:
+
+```bash
+git clone https://github.com/henrylbseaworth/beergames0214.git
+cd beergames0214
+
+#create my folder/handle and copy in my submission
+mkdir -p baconsSubs && cp SortingIPAs.sh baconsSubs/
+
+git add baconsSubs/SortingIPAs.sh #add my submission to be tracked 
+git commit -m "added my submission yay!"    #commit this change to the stage
+git push -u orign master    #push my changes to the repo
+```
+
+Another Git-tip: *it's a good idea to always pull before making changes and before pushing changes. For example if you run ```bash git pull``` before editing/commiting you'll save a bit of headeach if your changes affect other people's changes.  This shouldn't be an issue here but since we're all trying to learn ;D*
