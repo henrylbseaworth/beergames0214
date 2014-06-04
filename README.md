@@ -48,7 +48,4 @@ git push -u orign master    #push my changes to the repository
 
 ```
 
-<dl><dt>
-  Another Git-tip: it's a good idea to always pull before making changes and before pushing changes. For example if you run ```bash git pull``` before editing/commiting you'll save a bit of headeach if your changes affect other people's changes.  This shouldn't be an issue here but since we're all trying to learn ;D
-  </dt>
-  </dl>
+Another Git-tip: *it's a good idea to always pull before making changes and before pushing changes. For example if you run ```bash git pull``` before editing/commiting you'll save a bit of headeach if your changes affect other people's changes.  This shouldn't be an issue here but since we're all trying to learn ;D*
