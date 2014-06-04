@@ -1,6 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/*      By el james.
+ *
+ *      Usage: beercan fname key
+ */
+
 int my_strlen(char * str) {
     int i = 0;
     while(str[i] != '\0') {
@@ -50,11 +55,11 @@ int main(int argc, char * argv[]) {
     //PREP WORK
     //check for arguments.
     if ( !(argc == 3) ) {
-        fprintf(stderr, "Error: not enough arguments. Requires a keyword and a filename.\n");
+        fprintf(stderr, "Insufficient arguments.\n\tbeercan file key\n");
         return 1;
     }
-    char * _key = argv[1];
-    char * _fname = argv[2];
+    char * _fname = argv[1];
+    char * _key = argv[2];
     highlight_file(_key, _fname);
     return 0;
 }
