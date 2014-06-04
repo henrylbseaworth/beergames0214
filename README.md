@@ -21,8 +21,29 @@ and our key is "bacon", then the resulting text file could be:
 
 You can use any languages/libraries/hax. Whoever completes the program is invited to a bar to drink beer. Whoever "wins" the challenge chooses the bar
 
-Beer Games Rules (Preliminary)
-====
+## Beer Games Rules (Preliminary)
+
+### Programs
 Contestants can enter any number of programs. Programs can use any language, libraries, or dependencies. The programs will be evaluated on ONE agreed upon machine. 
 
-Challenges should include details such as the due date and specifics of how to win the challenge. Usually an auto-checker will be provided to provide logical validation and possibly some benchmark if applicable. By tradition, the winner of the challenge picks a celebration venue (bar). All contestants that complete the challenge are invited to the celebration and are not obligated to buy the winner anything. 
+###Metrics
+Challenges should include details such as the due date and specifics of how to win the challenge. Usually an auto-checker will be provided to provide logical validation and possibly some benchmark if applicable. 
+
+### Rewards
+By tradition, the winner of the challenge picks a celebration venue (bar). All contestants that complete the challenge are invited to the celebration and are not obligated to buy the winner anything. 
+
+### Submissions
+Make a folder in the root directory of the repository. The name of this folder is your handle. Put all your submissions in this folder, you may organize them as you see fit.
+
+E.g. if I wanted to submit my program called SortingIPAs.sh I could use the following procedure:
+
+```sh
+git clone https://github.com/henrylbseaworth/beergames0214.git
+cd beergames0214
+mkdir -p baconsWinningSubmissions   #my folder/handle
+cp <path_to_my_submission>/SortingIPAs.sh ./baconsWinningSubmissions/   #copy in my submission
+git add baconsWinningSubmissions/SortingIPAs.sh #add my submission to be tracked 
+git commit -m "added my submission yay!"    #commit this change to the stage
+git push -u orign master    #push my changes to the repository
+
+```
