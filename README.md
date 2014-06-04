@@ -35,7 +35,7 @@ By tradition, the winner of the challenge picks a celebration venue (bar). All c
 ### Submissions
 Make a folder in the root directory of the repository. The name of this folder is your handle. Put all your submissions in this folder, you may organize them as you see fit.
 
-E.g. if I wanted to submit my program called SortingIPAs.sh I could use the following procedure:
+For those not fammiliar with Git, if I wanted to submit my program called SortingIPAs.sh I could use the following procedure:
 
 ```bash
 git clone https://github.com/henrylbseaworth/beergames0214.git
@@ -47,3 +47,8 @@ git commit -m "added my submission yay!"    #commit this change to the stage
 git push -u orign master    #push my changes to the repository
 
 ```
+
+<dl><dt>
+  Another Git-tip: it's a good idea to always pull before making changes and before pushing changes. For example if you run ```bash git pull``` before editing/commiting you'll save a bit of headeach if your changes affect other people's changes.  This shouldn't be an issue here but since we're all trying to learn ;D
+  </dt>
+  </dl>
