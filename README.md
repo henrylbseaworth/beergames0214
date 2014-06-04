@@ -37,7 +37,7 @@ Make a folder in the root directory of the repository. The name of this folder i
 
 E.g. if I wanted to submit my program called SortingIPAs.sh I could use the following procedure:
 
-```shell
+```bash
 git clone https://github.com/henrylbseaworth/beergames0214.git
 cd beergames0214
 mkdir -p baconsWinningSubmissions   #my folder/handle
