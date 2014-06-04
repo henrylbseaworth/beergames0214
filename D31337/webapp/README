@@ -1,0 +1,8 @@
+This is a webapp that runs on RUBY. Make sure you have the following packages installed. 
+
+gem install sinatra
+gem install haml
+
+To run use.. 
+
+ruby app.rb 
