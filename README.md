@@ -40,12 +40,13 @@ For those not fammiliar with Git, if I wanted to submit my program called Sortin
 ```bash
 git clone https://github.com/henrylbseaworth/beergames0214.git
 cd beergames0214
-mkdir -p baconsWinningSubmissions   #my folder/handle
-cp <path_to_my_submission>/SortingIPAs.sh ./baconsWinningSubmissions/   #copy in my submission
-git add baconsWinningSubmissions/SortingIPAs.sh #add my submission to be tracked 
-git commit -m "added my submission yay!"    #commit this change to the stage
-git push -u orign master    #push my changes to the repository
 
+#create my folder/handle and copy in my submission
+mkdir -p baconsSubs && cp SortingIPAs.sh baconsSubs/
+
+git add baconsSubs/SortingIPAs.sh #add my submission to be tracked 
+git commit -m "added my submission yay!"    #commit this change to the stage
+git push -u orign master    #push my changes to the repo
 ```
 
 Another Git-tip: *it's a good idea to always pull before making changes and before pushing changes. For example if you run ```bash git pull``` before editing/commiting you'll save a bit of headeach if your changes affect other people's changes.  This shouldn't be an issue here but since we're all trying to learn ;D*
