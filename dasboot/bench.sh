@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ $# -eq 0 ]
 then
-  echo "Usage: $0 <biary> <key>"
+  echo "Usage: $0 <program> <key>"
   exit 2
 fi
 
