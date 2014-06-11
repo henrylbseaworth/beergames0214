@@ -7,7 +7,7 @@ Due: Monday, June 9 as close to 4:35 pm MST as possible.
 
 Challenge
 -----
-Develop a program that takes two inputs, a text file and a key (the key can be any ascii string but the text file could be any text encoding). The program searches the text file for the key. If the key is found the program inserts the number of occurrences of the key up to that point in the document next to that key. The changes will be made in-place for simplicity of checking.
+Develop a program that takes two inputs, a text file and a key (the key can be any ascii string but the text file could be any text encoding) and outputs a text file. The program searches the text file for the key. If the key is found the program inserts the number of occurrences of the key up to that point in the document next to that key. The original challenge was to have changes in-place, but I'm the only one that followed that so now it's an out-of-place challenge. 
 
 Example
 -----
